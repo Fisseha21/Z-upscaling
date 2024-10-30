@@ -13,7 +13,7 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         gap: 20px; /* Space between items */
-        flex-wrap: wrap; /* Allow items to wrap */
+        flex-wrap: nowrap; /* Prevent wrapping to keep items in one row */
         min-width: 700px; /* Minimum width for the container */
     }
     .captioned-image {
@@ -44,6 +44,7 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
         </div>
     </p>
 </section>
+
 
 
 
