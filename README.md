@@ -8,7 +8,7 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 
 ## Demo
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-direction: row;">
+<p style="display: flex; justify-content: center; gap: 20px; flex-direction: row; flex-wrap: nowrap; align-items: center; min-width: 700px;">
    <div style="text-align: center; width: 220px;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/Input_downsampledFIB25_vol.gif" width="200" height="200" alt="Input Downsampled Volume">
       <div style="margin-top: 8px;">Input Downsampled Volume</div>
@@ -23,7 +23,7 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/GT_FIB25_vol.gif" width="200" height="200" alt="Ground Truth Volume">
       <div style="margin-top: 8px;">Ground Truth Volume</div>
    </div>
-</div>
+</p>
 
 
 
