@@ -9,21 +9,22 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 ## Demo
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-   <figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0;">
+   <div style="text-align: center; width: 220px;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/Input_downsampledFIB25_vol.gif" width="200" height="200" alt="Input Downsampled Volume">
-      <figcaption>Input Downsampled Volume</figcaption>
-   </figure>
+      <div style="margin-top: 8px;">Input Downsampled Volume</div>
+   </div>
 
-   <figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0;">
+   <div style="text-align: center; width: 220px;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/zUpx8_FIB25_vol.gif" width="200" height="200" alt="Upscaled Volume">
-      <figcaption>Upscaled Volume (Z × 8)</figcaption>
-   </figure>
+      <div style="margin-top: 8px;">Upscaled Volume (Z × 8)</div>
+   </div>
 
-   <figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0;">
+   <div style="text-align: center; width: 220px;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/GT_FIB25_vol.gif" width="200" height="200" alt="Ground Truth Volume">
-      <figcaption>Ground Truth Volume</figcaption>
-   </figure>
+      <div style="margin-top: 8px;">Ground Truth Volume</div>
+   </div>
 </div>
+
 
 
 
