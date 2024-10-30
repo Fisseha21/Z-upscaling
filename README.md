@@ -8,4 +8,14 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 
 ## Evaluation
 
-Downloaded pretrained models [Saved models](https://drive.google.com/drive/folders/1vFvyuP4FdU8A0_Y0iA7CHSvlAFPH6StX?usp=sharing)
+Download pretrained models [Saved models](https://drive.google.com/drive/folders/1vFvyuP4FdU8A0_Y0iA7CHSvlAFPH6StX?usp=sharing)
+```Shell
+python3 /Z-upscaling-main/eval/interpolator_cli.py \
+   --pattern "/Z-upscaling-main/Demo/*" \
+   --model_path /Z-upscaling-main/ModelPaths/test_run_ft_em_/saved_model_2M \
+   --outputfile /Z-upscaling-main/Demo_out \
+   --times_to_interpolate 8 \
+   --output_volume "True" \
+   --remove_sliced_volumes "False"
+
+```
