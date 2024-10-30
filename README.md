@@ -8,22 +8,23 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 
 ## Demo
 
-<p align="center">
-   <figure style="display: inline-block; margin: 0 10px;">
+<div style="display: flex; justify-content: center; gap: 20px;">
+   <figure style="text-align: center;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/Input_downsampledFIB25_vol.gif" width="200" height="200" alt="Input Downsampled Volume">
-      <figcaption style="text-align: center;">Input Downsampled Volume</figcaption>
+      <figcaption>Input Downsampled Volume</figcaption>
    </figure>
 
-   <figure style="display: inline-block; margin: 0 10px;">
+   <figure style="text-align: center;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/zUpx8_FIB25_vol.gif" width="200" height="200" alt="Upscaled Volume">
-      <figcaption style="text-align: center;">Upscaled Volume (Z × 8)</figcaption>
+      <figcaption>Upscaled Volume (Z × 8)</figcaption>
    </figure>
 
-   <figure style="display: inline-block; margin: 0 10px;">
+   <figure style="text-align: center;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/GT_FIB25_vol.gif" width="200" height="200" alt="Ground Truth Volume">
-      <figcaption style="text-align: center;">Ground Truth Volume</figcaption>
+      <figcaption>Ground Truth Volume</figcaption>
    </figure>
-</p>
+</div>
+
 
 
 ## Evaluation
