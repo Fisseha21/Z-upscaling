@@ -8,44 +8,22 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 
 ## Demo
 
-<style type="text/css">
-    .image-container {
-        display: flex; /* Use flexbox for layout */
-        justify-content: center; /* Center items horizontally */
-        gap: 20px; /* Space between items */
-        flex-wrap: nowrap; /* Prevent wrapping to keep items in one row */
-        min-width: 700px; /* Minimum width for the container */
-    }
-    .captioned-image {
-        text-align: center; /* Center text below images */
-        width: 220px; /* Set a fixed width for image blocks */
-    }
-    img {
-        max-width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
-    }
-</style>
+<p style="display: flex; justify-content: center; gap: 20px; flex-direction: row; flex-wrap: nowrap; align-items: center; min-width: 700px;">
+   <div style="text-align: center; width: 220px;">
+      <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/Input_downsampledFIB25_vol.gif" width="200" height="200" alt="Input Downsampled Volume">
+      <div style="margin-top: 8px;">Input Downsampled Volume</div>
+   </div>
 
-<section class="products">
-    <p class="image-container">
-        <div class="captioned-image">
-            <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/Input_downsampledFIB25_vol.gif" alt="Input Downsampled Volume">
-            <div style="margin-top: 8px;">Input Downsampled Volume</div>
-        </div>
+   <div style="text-align: center; width: 220px;">
+      <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/zUpx8_FIB25_vol.gif" width="200" height="200" alt="Upscaled Volume">
+      <div style="margin-top: 8px;">Upscaled Volume (Z × 8)</div>
+   </div>
 
-        <div class="captioned-image">
-            <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/zUpx8_FIB25_vol.gif" alt="Upscaled Volume">
-            <div style="margin-top: 8px;">Upscaled Volume (Z × 8)</div>
-        </div>
-
-        <div class="captioned-image">
-            <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/GT_FIB25_vol.gif" alt="Ground Truth Volume">
-            <div style="margin-top: 8px;">Ground Truth Volume</div>
-        </div>
-    </p>
-</section>
-
-
+   <div style="text-align: center; width: 220px;">
+      <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/GT_FIB25_vol.gif" width="200" height="200" alt="Ground Truth Volume">
+      <div style="margin-top: 8px;">Ground Truth Volume</div>
+   </div>
+</p>
 
 
 
