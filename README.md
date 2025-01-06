@@ -51,3 +51,15 @@ python3 /Z-upscaling-main/eval/interpolator_cli.py \
    --remove_sliced_volumes "False"
 
 ```
+
+## Cite
+
+If you find this work useful please cite:
+```
+@article{ferede2024z,
+  title={Z-upscaling: Optical Flow Guided Frame Interpolation for Isotropic Reconstruction of 3D EM Volumes},
+  author={Ferede, Fisseha A and Khalighifar, Ali and John, Jaison and Venkataraman, Krishnan and Khairy, Khaled},
+  journal={arXiv preprint arXiv:2410.07043},
+  year={2024}
+}
+```
