@@ -17,7 +17,7 @@ Fisseha A. Ferede, Ali Khalighifar, Jaison John, Krishnan Venkataraman, Khaled K
 
    <div style="text-align: center; width: 220px;">
       <img src="https://github.com/Fisseha21/Z-upscaling/blob/main/demos/zUpx8_FIB25_vol.gif" width="200" height="200" alt="Upscaled Volume">
-      <div style="margin-top: 8px;">Upscaled Volume (Z × 8)</div>
+      <div style="margin-top: 8px;">Upscaled Volume (Z Ã— 8)</div>
    </div>
 
    <div style="text-align: center; width: 220px;">
@@ -56,10 +56,12 @@ python3 /Z-upscaling-main/eval/interpolator_cli.py \
 
 If you find this work useful please cite:
 ```
-@article{ferede2024z,
+@inproceedings{ferede2025z,
   title={Z-upscaling: Optical Flow Guided Frame Interpolation for Isotropic Reconstruction of 3D EM Volumes},
   author={Ferede, Fisseha A and Khalighifar, Ali and John, Jaison and Venkataraman, Krishnan and Khairy, Khaled},
-  journal={arXiv preprint arXiv:2410.07043},
-  year={2024}
+  booktitle={2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
 }
 ```
